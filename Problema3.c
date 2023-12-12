@@ -18,7 +18,7 @@ int main() {
     while (calc_exp(b, e+1) <= n)
         e++;
     
-    printf("Log de %d na base %d eh igual a %d\n", n, b, e);
+    printf("Log de %d na base %d eh igual a %d,?\n", n, b, e);
 
     return 0;
 }
